@@ -23,7 +23,7 @@ To use this program, you have to input a couple variables:
 
 *The previous number of digits* - the total number of digits there are in each number in the current numbering system of the files.
 
-For example:
+__For example:__
 
 01 - two digits
 
@@ -34,7 +34,7 @@ If your numbering system does not add any zeros (1, 10, 100) please input zero
 
 *The previous naming form* - The format in which the files are currently named with a # included where the number is.
 
-For example:
+__For example:__
 
 Frame_#.png would be:
 

@@ -28,6 +28,7 @@ __For example:__
 01 - two digits
 
 001 - three digits
+
 If your numbering system does not add any zeros (1, 10, 100) please input zero
 
 *The target number of digits* - again, the number of digits (the zero thing still works) that you wish for the files to have after renaming

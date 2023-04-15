@@ -22,16 +22,22 @@ To use this program, you have to input a couple variables:
 *The number of the files* - the integer number for the files you want to rename (the program counts from 1, not zero)
 
 *The previous number of digits* - the total number of digits there are in each number in the current numbering system of the files.
+
 For example:
+
 01 - two digits
+
 001 - three digits
 If your numbering system does not add any zeros (1, 10, 100) please input zero
 
 *The target number of digits* - again, the number of digits (the zero thing still works) that you wish for the files to have after renaming
 
 *The previous naming form* - The format in which the files are currently named with a # included where the number is.
+
 For example:
+
 Frame_#.png would be:
+
 Frame_001.png 
 
 *The target naming form* - Again, the format of naming with the hashtag, except how you want them to be named

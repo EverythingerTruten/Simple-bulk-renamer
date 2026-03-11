@@ -1,46 +1,12 @@
 # Simple-bulk-renamer
 This python code uses the Windows command prompt to automatically rename files in bulk
 
-**Installation:**
-
-Before using this program make sure you have the TQDM library installed.
-
-To install the library, please run:
-```
-pip install tqdm
-```
-
-*If you do not have pip installed, please follow this tutorial:
-https://www.dataquest.io/blog/install-pip-windows/*
-
-**Usage:**
-
-To use this program, you have to input a couple variables:
-
-*The directory of the files* - when you see a windows file choice window pop up, please select the folder containing all of the files you wish to rename
-
-*The number of the files* - the integer number for the files you want to rename (the program counts from 1, not zero)
-
-*The previous number of digits* - the total number of digits there are in each number in the current numbering system of the files.
-
-__For example:__
-
-01 - two digits
-
-001 - three digits
-
-If your numbering system does not add any zeros (1, 10, 100) please input zero
-
-*The target number of digits* - again, the number of digits (the zero thing still works) that you wish for the files to have after renaming
-
-*The previous naming form* - The format in which the files are currently named with a # included where the number is.
-
-__For example:__
-
-Frame_#.png would be:
-
-Frame_001.png 
-
-*The target naming form* - Again, the format of naming with the hashtag, except how you want them to be named
-
-**If you have any questions, be sure to put them into the issues tab**
+I rebuilt this very simple program into something that has many more uses. 
+**USAGE:**
+1. You load a folder with multiple files you want to rename.
+2. In the input field replace a part of the base naming convention with a variable enclosed in curly brackets
+3. In the output field write how you'd like all the files to be named after. In the places where you want a variable, write it the same way as described before.
+4. Below, you can see how the files will be named after.
+5. Optionally, you can change how certain variables behave after conversion. There are two types:
+  1) Integer - for numbers (frame numbers, etc.) - you can choose to add a set amount of digits (For example if you choose 4 then it would change 12 to 0012)
+  2) String - for everything else - you can choose to change the capitalization or the seperating character

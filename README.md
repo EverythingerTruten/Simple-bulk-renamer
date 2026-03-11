@@ -2,6 +2,7 @@
 This python code uses the Windows command prompt to automatically rename files in bulk
 
 I rebuilt this very simple program into something that has many more uses. 
+
 **USAGE:**
 1. You load a folder with multiple files you want to rename.
 2. In the input field replace a part of the base naming convention with a variable enclosed in curly brackets
